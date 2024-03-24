@@ -18,7 +18,6 @@ class MainWindow(QMainWindow):
         
         self.UiComponents()
 
-
     def UiComponents(self):
         draft = QPushButton("DRAFT", self)
         draft.setGeometry(300, 150, 100, 40) #x-coordinate, y-coordinate, length of box, width of box
