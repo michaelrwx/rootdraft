@@ -16,10 +16,14 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("Root Advanced Setup Draft")
         self.resize(700, 700)
         
+        self.UiComponents()
+
+
     def UiComponents(self):
         draft = QPushButton("DRAFT", self)
-        draft.setGeometry(200, 150, 100, 40)
-        self.setCentralWidget(draft)
+        draft.setGeometry(300, 150, 100, 40) #x-coordinate, y-coordinate, length of box, width of box
+        vagabonder = QPushButton("VAGABOND", self)
+        vagabonder.setGeometry(300, 250, 100, 40) #x-coordinate, y-coordinate, length of box, width of box
 
 app = QApplication(sys.argv)
 
