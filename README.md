@@ -5,9 +5,5 @@ Written in Python, this application focuses on PyQt6 as its primary means of dis
 
 If a Vagabond is chosen, there is an option to randomize the class as well. Obviously with this being a board game, that can be used to your discretion.
 
-This project is WIP.
-
-TODO:
-- Make the program work
-- Turn this into an executible file
+I made this into an .exe in my own time.
 
